@@ -1,0 +1,58 @@
+*{
+    font-family: "Roboto Slab";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #33373E;
+}
+
+nav{
+  background-color: #21222A;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 3em;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 8em;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+}
+
+.logoTitle{
+  color: #00D8FF;
+  margin-left: 0.5em;
+}
+.openAiLogo{
+  width: 3em;
+  height: 3em;
+  filter: invert(83%) sepia(92%) saturate(1835%) hue-rotate(156deg) brightness(100%) contrast(99%);
+}
+.navDescription{
+  color: lightgray;
+}
+
+.bodyTitle{
+  margin-top: 3em;
+  margin-left: 2em;
+  color: white;
+}
+
+ul{
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+ul > li{
+  margin-left: 2em;
+  font-size:larger;
+  padding-block: 1em;
+  color: lightgray;
+}
+
